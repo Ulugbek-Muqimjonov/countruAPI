@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.hero__country-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.hero__country-item {
+    border-radius: 8px;
+    border: 3px solid transparent;
+    transition: transform 0.5s ease,border-color 0.5s ease, opacity 0.5s ease;
+}
+.hero__country-item:hover {
+    opacity: 0.6;
+    transform: scale(0.95);
+    border-color: red;
+}
+.hero__country-img {
+    width: 100%;
+  
+}
+.hero__country-innerdiv {
+    padding: 15px;
+}
+.hero__searchinput::placeholder {
+    font-weight: 600;
+    opacity: 0.5;
+}
+.hero__searchinput {
+    width: 28%;
+}
+.hero__form-sellect {
+    width: 110px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hero__country-img {
+    border-radius: 3px 3px 0 0;
+}
